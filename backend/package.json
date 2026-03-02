@@ -1,0 +1,23 @@
+{
+  "name": "blockchain-voting-backend",
+  "version": "1.0.0",
+  "description": "Blockchain-based smart voting platform backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test/blockchain.test.js"
+  },
+  "keywords": [
+    "blockchain",
+    "voting",
+    "e-voting"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "crypto-js": "^4.2.0",
+    "express": "^5.2.1",
+    "uuid": "^13.0.0"
+  }
+}
